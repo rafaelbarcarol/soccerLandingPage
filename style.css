@@ -1,0 +1,311 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.mainSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  max-height: 85vh;
+  background-image: url(./img/soccer1.png);
+  background-position: center;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.initialInfo {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-weight: 700;
+  max-width: 90%;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  gap: 2rem;
+}
+
+.actionForm {
+  display: flex;
+  flex-direction: column;
+  max-width: 80%;
+  padding: 0.8rem;
+  margin-bottom: 2.5rem;
+  gap: 1.2rem;
+  background-color: #d9d9d9;
+  color: #000000;
+}
+
+.formTitle {
+  text-align: center;
+}
+
+.input {
+  margin-top: -1.25rem;
+}
+
+.actionBtn {
+  border-radius: 2rem;
+  height: 3rem;
+  outline: none;
+  border: none;
+  background-color: #7ed957;
+  font-weight: 700;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+span {
+  color: #7ed957;
+}
+
+.mainTitle {
+  border-bottom: 1px solid #ffffff;
+  color: #7ed957;
+}
+
+.aboutContent {
+  background-image: linear-gradient(
+    to right,
+    #5fc7ba,
+    #5cceaf,
+    #65d49f,
+    #79d98a,
+    #92dc73
+  );
+}
+
+.aboutInformation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem 1rem 1rem 1rem;
+  gap: 1rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.aboutInformationReverse {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem 1rem 1rem 1rem;
+  gap: 1rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+#contentInfo {
+  max-width: 12rem;
+}
+
+.circleImage {
+  height: 9rem;
+  width: 9rem;
+  border-radius: 50%;
+  margin-left: -0.5rem;
+}
+
+.contentTopics {
+  background-image: url(./img/stadium-bg.png);
+  color: #ffffff;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem 2rem 1rem 2rem;
+  gap: 2rem;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.contentTopics button a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.contentTopics ul {
+  list-style: none;
+}
+
+.contentTopics button {
+  width: 15rem;
+  margin-top: -1.5rem;
+}
+
+ul li {
+  color: #000000;
+  background-color: #b9ff9b;
+  border-radius: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+li img {
+  height: 0.8rem;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  background-color: #2e2e2e;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+#study {
+  font-size: 0.7rem;
+  border: none;
+}
+
+.contact div {
+  margin: 1rem;
+  line-height: 2rem;
+}
+
+.contact div h2 {
+  margin-bottom: 1rem;
+}
+
+.contact p {
+  font-size: 0.8rem;
+  border: 1px solid #ffffff;
+  padding: 0.5rem;
+}
+
+.topBtn {
+  text-decoration: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.topBtn:hover {
+  border: 1px solid #65d49f;
+}
+
+.actionBtn:hover {
+  border: 3px solid #ffffff;
+}
+
+.actionBtn:active {
+  background-color: #184f01;
+}
+
+@media (min-width: 500px) {
+  #contentInfo {
+    max-width: 90%;
+  }
+}
+
+@media (min-width: 768px) {
+  .initialInfo {
+    font-size: 1.3rem;
+  }
+  .mainTitle {
+    font-size: 3rem;
+  }
+  .contact {
+    flex-direction: row;
+  }
+}
+@media (min-width: 975px) {
+  .mainSection {
+    flex-direction: row;
+  }
+  .actionForm {
+    margin-top: 2rem;
+    max-width: 20rem;
+  }
+  .aboutContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 1.5rem;
+  }
+  .aboutInformation {
+    flex-direction: column;
+    max-width: 15rem;
+  }
+  .aboutInformationReverse {
+    flex-direction: column;
+    max-width: 15rem;
+  }
+  .contentTopics {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .contentTopics p {
+    max-width: 12rem;
+    font-size: 1.3rem;
+  }
+  .contentTopics ul {
+    max-width: 20rem;
+  }
+  .contentTopics button {
+    width: 9rem;
+    height: 7rem;
+  }
+  .contact {
+    justify-content: space-around;
+  }
+}
+@media (min-width: 1700px) {
+  .initialInfo {
+    font-size: 2.5rem;
+  }
+  .actionForm {
+    font-size: 1.7rem;
+    max-width: 30rem;
+  }
+  .actionForm input {
+    height: 1.7rem;
+  }
+  .aboutInformation {
+    font-size: 1.7rem;
+    max-width: 18rem;
+  }
+  .aboutInformationReverse {
+    font-size: 1.7rem;
+    max-width: 18rem;
+  }
+  .aboutContent img {
+    width: 15rem;
+    height: 15rem;
+  }
+  .contentTopics p {
+    font-size: 2.2rem;
+    max-width: 30rem;
+  }
+  .contentTopics ul {
+    font-size: 1.7rem;
+    max-width: 35rem;
+  }
+  .contentTopics li {
+    margin: 2rem;
+  }
+  .contentTopics button {
+    height: 10rem;
+    width: 15rem;
+    font-size: 2.5rem;
+  }
+  .contact {
+    font-size: 1.5rem;
+  }
+}
