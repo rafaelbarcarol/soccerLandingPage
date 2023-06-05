@@ -32,7 +32,7 @@
 
 ## Link para visualizar a página
 
-(em breve)
+https://rafaelbarcarol.github.io/soccerLandingPage/
 
 <br>
 
