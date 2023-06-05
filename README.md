@@ -1,6 +1,6 @@
 # eBook de Futebol - Landing Page
 
-- Página contendo uma Landing Page de eBook fictício com informações, marketing e formulário de cadastro;
+- Projeto contendo uma Landing Page de eBook fictício com informações, marketing e formulário de cadastro;
 
 - Replica um layout previamente desenvolvido em uma ferramenta de edição de imagens; 
 
