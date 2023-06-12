@@ -208,6 +208,14 @@ li img {
   background-color: #184f01;
 }
 
+.success {
+  border: 3px solid #17c130;
+}
+
+.error {
+  border: 3px solid #cc1414;
+}
+
 @media (min-width: 500px) {
   #contentInfo {
     max-width: 90%;
