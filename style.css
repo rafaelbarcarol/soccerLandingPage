@@ -14,12 +14,11 @@ html {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  height: 90vh;
+  max-height: 85vh;
   background-image: url(./img/soccer1.png);
   background-position: center;
   background-color: #000000;
   color: #ffffff;
-  padding: 2rem 0rem 2rem;
 }
 
 .initialInfo {
@@ -91,7 +90,7 @@ span {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 1.5rem 1rem 1.5rem 1rem;
+  padding: 1.5rem 1rem 1rem 1rem;
   gap: 1rem;
   text-align: center;
   font-size: 1.2rem;
@@ -129,7 +128,7 @@ span {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 2rem;
+  padding: 1.5rem 2rem 1rem 2rem;
   gap: 2rem;
   text-align: center;
   font-size: 1.1rem;
@@ -229,7 +228,6 @@ li img {
 @media (min-width: 768px) {
   .initialInfo {
     font-size: 1.3rem;
-    margin-bottom: 2rem;
   }
   .mainTitle {
     font-size: 3rem;
@@ -241,7 +239,6 @@ li img {
 @media (min-width: 975px) {
   .mainSection {
     flex-direction: row;
-    padding: 0rem;
   }
   .actionForm {
     margin-top: 2rem;
