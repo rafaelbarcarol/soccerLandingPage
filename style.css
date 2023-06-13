@@ -37,12 +37,11 @@ html {
   display: flex;
   flex-direction: column;
   max-width: 80%;
-  padding: 0.8rem 0.8rem 1.4rem;
+  padding: 0.8rem;
   margin-bottom: 2.5rem;
   gap: 1.2rem;
   background-color: #d9d9d9;
   color: #000000;
-  margin-bottom: 4rem;
 }
 
 .formTitle {
@@ -82,8 +81,6 @@ span {
     #79d98a,
     #92dc73
   );
-
-  padding-top: 1rem;
 }
 
 .aboutInformation {
