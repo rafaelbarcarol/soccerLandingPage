@@ -6,7 +6,7 @@
 
 - Responsividade aplicada para que a página se adeque em diferentes tamanhos de tela;
 
-- (em breve) Validação do preenchimento adequado ou não do campo de e-mail no formulário.
+- Validação do preenchimento adequado ou não do campo de e-mail no formulário.
 
 <br>
 
