@@ -4,9 +4,13 @@
 
 - Replica um layout previamente desenvolvido em uma ferramenta de edição de imagens; 
 
-- Responsividade aplicada para que a página se adeque em diferentes tamanhos de tela;
+- Responsividade aplicada para que a página se adeque em diferentes tamanhos de tela:<br>
+(prévia com print fullscreen dos layouts das versões desktop e mobile no final do README);
 
-- Validação do preenchimento adequado ou não do campo de e-mail no formulário.
+- Validação do preenchimento adequado ou não do campo de e-mail no formulário;
+
+- Disponível em: https://rafaelbarcarol.github.io/soccerLandingPage/
+
 
 <br>
 
@@ -30,14 +34,14 @@
 
 <br>
 
-## Link para visualizar a página
-
-https://rafaelbarcarol.github.io/soccerLandingPage/
-
-<br>
-
 ## Responsividade
 
-- Projeto responsivo que se adequa e adapta a diferentes tamanhos de tela.
+- Projeto responsivo que se adequa e adapta a diferentes tamanhos de tela;
 
-- Responsividade realizada por meio do uso de media queries.
+- Responsividade realizada por meio do uso de media queries;
+
+- Versões desktop e mobile ↓
+
+![soccerLandingPage](https://github.com/rafaelbarcarol/soccerLandingPage/assets/128104779/8ea08524-fe18-45cf-8be8-f9e6db5faf8e)
+
+![soccerLandingPageMobile](https://github.com/rafaelbarcarol/soccerLandingPage/assets/128104779/0e957ee7-4874-480e-9ce0-d0feaddeb19a)
