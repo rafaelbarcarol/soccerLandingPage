@@ -15,13 +15,15 @@ actionBtn.addEventListener("click", (ev) => {
   ev.preventDefault();
   email.classList.remove("success", "error");
 
-  if (email.value === "" && username.value === "" && birthDate.value === "") {
-    alert("Preencha o formulário e tente novamente.");
+  if (email.value === "" || username.value === "" || birthDate.value === "") {
+    alert("Preencha todos os campos do formulário e tente novamente.");
   } else {
     try {
       validateEmail(email.value);
       email.classList.add("success");
-      alert("Esse é um projeto fictício de estudo.");
+      alert(`Todos os campos foram preenchidos corretamente!
+
+(Dados não coletados, esse é apenas um projeto fictício para estudo)`);
     } catch (error) {
       email.classList.add("error");
       alert("Formato de e-mail inválido.");
