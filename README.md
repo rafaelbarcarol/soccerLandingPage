@@ -25,6 +25,7 @@
 ## Visualizar (versão desktop e mobile)
 ![soccerLandingPage](https://github.com/rafaelbarcarol/soccerLandingPage/assets/128104779/8ea08524-fe18-45cf-8be8-f9e6db5faf8e)
 
+![soccerLandingPage](https://github.com/rafaelbarcarol/soccerLandingPage/assets/128104779/00bc5b42-a6d7-480f-a869-a919a59ebc00)
 ## Objetivos
 
 - Projeto de estudo para prática e fixação de conceitos de HTML, CSS e JS;
