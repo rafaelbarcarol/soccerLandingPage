@@ -8,6 +8,8 @@
 
 - Validação do preenchimento adequado ou não do campo de e-mail no formulário.
 
+- Disponível em: https://rafaelbarcarol.github.io/soccerLandingPage/
+
 <br>
 
 ## Stacks utilizadas
@@ -20,6 +22,9 @@
 
 <br>
 
+## Visualizar (versão desktop e mobile)
+![soccerLandingPage](https://github.com/rafaelbarcarol/soccerLandingPage/assets/128104779/8ea08524-fe18-45cf-8be8-f9e6db5faf8e)
+
 ## Objetivos
 
 - Projeto de estudo para prática e fixação de conceitos de HTML, CSS e JS;
@@ -27,12 +32,6 @@
 - Documentação da jornada para futuras análises comparativas e percepção da evolução;
 
 - Estudo de criação de páginas web replicando um layout previamente definido, uso da unidade de medida "rem" e implementação do projeto via GitHub Pages.
-
-<br>
-
-## Link para visualizar a página
-
-https://rafaelbarcarol.github.io/soccerLandingPage/
 
 <br>
 
